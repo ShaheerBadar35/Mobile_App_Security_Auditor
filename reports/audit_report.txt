@@ -1,0 +1,169 @@
+📄 Mobile App Security Audit Report
+===============================
+
+🔹 Permissions and API Security Check:
+🔹 Permissions Requested:
+    - android.permission.READ_EXTERNAL_STORAGE
+    - android.permission.RECORD_AUDIO
+    - android.permission.WRITE_EXTERNAL_STORAGE
+    - android.permission.INTERNET
+    - android.permission.ACCESS_NETWORK_STATE
+    - com.google.android.providers.gsf.permission.READ_GSERVICES
+    - com.echoclip.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+🔸 Dangerous Permissions Detected:
+    ❗ android.permission.READ_EXTERNAL_STORAGE
+    ❗ android.permission.RECORD_AUDIO
+    ❗ android.permission.WRITE_EXTERNAL_STORAGE
+
+🔸 Insecure API Endpoints (HTTP URLs) Found:
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res-auto
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res-auto
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res-auto
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res-auto
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res-auto
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://schemas.android.com/tools
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://[
+    ⚠️ http://localhost
+    ⚠️ http://localhost
+    ⚠️ http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+    ⚠️ http://dashif.org/guidelines/trickmode
+    ⚠️ http://dashif.org/guidelines/trickmode
+    ⚠️ http://dashif.org/guidelines/last-segment-number
+    ⚠️ http://ns.adobe.com/xap/1.0/
+    ⚠️ http://schemas.android.com/apk/res/android
+    ⚠️ http://ns.adobe.com/xap/1.0/\u0000
+    ⚠️ http://www.w3.org/ns/ttml#parameter
+    ⚠️ http://www.w3.org/ns/ttml#parameter
+
+
+🔹 Static Code Analysis:
+🔹 Static Code Vulnerabilities Found:
+    ❗ Weak Encryption (ECB Mode) (1 occurrences) in reverse_engineering\decompiled_apps\app-release\smali\com\google\android\gms\internal\firebase-auth-api\zzxz.smali
+    ❗ Weak Encryption (ECB Mode) (1 occurrences) in reverse_engineering\decompiled_apps\app-release\smali\com\google\android\gms\internal\firebase-auth-api\zzzf.smali
+
+
+🔹 Insecure Data Storage Check:
+🔹 Insecure Data Storage Findings:
+    ❗ Hardcoded sensitive info in files (2 occurrences) in reverse_engineering\decompiled_apps\app-release\res\values\public.xml
+    ❗ Hardcoded sensitive info in files (1 occurrences) in reverse_engineering\decompiled_apps\app-release\smali\com\google\android\gms\internal\firebase-auth-api\zzaic.smali
+    ❗ Writing sensitive data to external storage (1 occurrences) in reverse_engineering\decompiled_apps\app-release\smali\n7\g.smali
+    ❗ Hardcoded sensitive info in files (1 occurrences) in reverse_engineering\decompiled_apps\app-release\smali\t5\i0.smali
+    ❗ Writing sensitive data to external storage (1 occurrences) in reverse_engineering\decompiled_apps\app-release\smali\v\k.smali
+
+
