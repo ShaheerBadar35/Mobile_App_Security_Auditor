@@ -27,8 +27,8 @@ def decompile_apk(apk_path):
         return decompiled_path
 
     except subprocess.CalledProcessError as e:
-        print(f"❌ Decompilation failed: {e}")
+        print(f" Decompilation failed: {e}")
         return None
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f" Error: {e}")
         return None

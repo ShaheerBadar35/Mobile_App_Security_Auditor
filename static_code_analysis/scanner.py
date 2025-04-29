@@ -30,7 +30,7 @@ def scan_source_code(decompiled_path):
                             if matches:
                                 findings.append((file_path, issue, len(matches)))
                 except Exception as e:
-                    print(f"❌ Error scanning {file_path}: {e}")
+                    print(f" Error scanning {file_path}: {e}")
 
     # Format the report
     if not findings:
@@ -38,6 +38,6 @@ def scan_source_code(decompiled_path):
 
     report = "🔹 Static Code Vulnerabilities Found:\n"
     for file_path, issue, count in findings:
-        report += f"    ❗ {issue} ({count} occurrences) in {file_path}\n"
+        report += f"     {issue} ({count} occurrences) in {file_path}\n"
 
     return report

@@ -27,14 +27,14 @@ def check_insecure_storage(decompiled_path):
                             if matches:
                                 findings.append((file_path, issue, len(matches)))
                 except Exception as e:
-                    print(f"❌ Error checking storage in {file_path}: {e}")
+                    print(f" Error checking storage in {file_path}: {e}")
 
     # Format the report
     if not findings:
-        return "✅ No insecure data storage practices detected.\n"
+        return " No insecure data storage practices detected.\n"
 
-    report = "🔹 Insecure Data Storage Findings:\n"
+    report = " Insecure Data Storage Findings:\n"
     for file_path, issue, count in findings:
-        report += f"    ❗ {issue} ({count} occurrences) in {file_path}\n"
+        report += f"     {issue} ({count} occurrences) in {file_path}\n"
 
     return report

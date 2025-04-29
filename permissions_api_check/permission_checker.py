@@ -26,7 +26,7 @@ def check_permissions(decompiled_path):
     manifest_path = os.path.join(decompiled_path, "AndroidManifest.xml")
     
     if not os.path.exists(manifest_path):
-        return "❌ AndroidManifest.xml not found. Cannot check permissions."
+        return " AndroidManifest.xml not found. Cannot check permissions."
 
     try:
         permissions_found = []
@@ -64,21 +64,21 @@ def check_permissions(decompiled_path):
         for p in permissions_found:
             report += f"    - {p}\n"
 
-        report += "\n🔸 Dangerous Permissions Detected:\n"
+        report += "\n Dangerous Permissions Detected:\n"
         if dangerous_found:
             for dp in dangerous_found:
-                report += f"    ❗ {dp}\n"
+                report += f"     {dp}\n"
         else:
-            report += "    ✅ No dangerous permissions detected.\n"
+            report += "    No dangerous permissions detected.\n"
 
-        report += "\n🔸 Insecure API Endpoints (HTTP URLs) Found:\n"
+        report += "\n Insecure API Endpoints (HTTP URLs) Found:\n"
         if insecure_apis:
             for api in insecure_apis:
-                report += f"    ⚠️ {api}\n"
+                report += f"     {api}\n"
         else:
-            report += "    ✅ No insecure API endpoints detected.\n"
+            report += "     No insecure API endpoints detected.\n"
 
         return report
 
     except Exception as e:
-        return f"❌ Error analyzing permissions: {e}"
+        return f" Error analyzing permissions: {e}"
